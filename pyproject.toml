@@ -1,0 +1,19 @@
+[project]
+name = "learn-github-actions"
+version = "0.1.0"
+description = "learn github actions"
+authors = [
+    {name = "momopark8", email = "1551922774@qq.com"},
+]
+dependencies = []
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
